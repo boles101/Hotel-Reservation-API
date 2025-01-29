@@ -1,0 +1,202 @@
+[
+  {
+    "ContainingType": "HotelReservation.Controllers.MealPlanController",
+    "Method": "AddNewMealPlan",
+    "RelativePath": "api/MealPlan/Add-New-Meal-Plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "mealPlanDto",
+        "Type": "HotelReservation.Models.Dtos.MealPlanDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.MealPlanController",
+    "Method": "DeleteMealPlan",
+    "RelativePath": "api/MealPlan/Delete-Meal-Plan",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "MealPlanId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.MealPlanController",
+    "Method": "GetAllMealPlans",
+    "RelativePath": "api/MealPlan/Get-All-Meal-Plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.ReservationController",
+    "Method": "GetReservationTotal",
+    "RelativePath": "api/Reservation/Calculate Reservation Total",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "HotelReservation.Models.CalculateReservationRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomController",
+    "Method": "AddRoom",
+    "RelativePath": "api/Room/Add-Room",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomDto",
+        "Type": "HotelReservation.Models.Dtos.RoomDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomController",
+    "Method": "DeleteRoom",
+    "RelativePath": "api/Room/Delete-Room",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomController",
+    "Method": "GetAllRooms",
+    "RelativePath": "api/Room/Get-All-Rooms",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomRateController",
+    "Method": "AddRoomRateAsync",
+    "RelativePath": "api/RoomRate/Add-New-Room-Rate",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomRateDto",
+        "Type": "HotelReservation.Models.Dtos.SeasonRateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomRateController",
+    "Method": "DeleteRoomRate",
+    "RelativePath": "api/RoomRate/Delete-Room-Rate",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomRateId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomRateController",
+    "Method": "GetAllRoomRatesAsync",
+    "RelativePath": "api/RoomRate/Get-All-Room-Rates",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomTypeController",
+    "Method": "AddRoomType",
+    "RelativePath": "api/RoomType/Add-Room_Type",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomType",
+        "Type": "HotelReservation.Models.Dtos.RoomTypeDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomTypeController",
+    "Method": "DeleteRoomType",
+    "RelativePath": "api/RoomType/Delete-RoomType",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "roomTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomTypeController",
+    "Method": "GetAllTypes",
+    "RelativePath": "api/RoomType/Get-All-Types",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "HotelReservation.Controllers.RoomTypeController",
+    "Method": "GetRoomTypeById",
+    "RelativePath": "api/RoomType/Get-Room-Type-By-ID",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "RoomTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
